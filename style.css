@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: fixed !important;
 }
 
 body * {
@@ -10,10 +11,8 @@ body * {
 }
 
 body {
- background: url(./assets/frenteDRogasil.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./assets/frenteDRogasil.jpeg) no-repeat top center;
+  background-position-y: center;
   background-attachment: fixed;
 }
 
