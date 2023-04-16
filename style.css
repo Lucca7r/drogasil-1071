@@ -10,8 +10,11 @@ body * {
 }
 
 body {
-  background: url(./assets/frenteDRogasil.jpeg) no-repeat top center/cover;
-  background-attachment: fixed;
+  background: url(./assets/frenteDrogasil1071.jpeg) center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  /*ackground-attachment: fixed;
+*/
 }
 
 #conteiner {
@@ -91,4 +94,8 @@ ul li a:hover {
   padding: 16px;
   margin-top: 30px;
   font-weight: 400;
+}
+
+#receita {
+  
 }
