@@ -10,11 +10,10 @@ body * {
 }
 
 body {
-  background: url(./assets/frenteDrogasil1071.jpeg) center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  /*ackground-attachment: fixed;
-*/
+  background: url(./assets/frenteDRogasil.jpeg) center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #conteiner {
@@ -96,4 +95,10 @@ ul li a:hover {
   font-weight: 400;
 }
 
-
+@media (max-width: 550px) {
+  body {
+    background: url(./assets/baixotest.svg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+  }
+}
