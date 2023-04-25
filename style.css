@@ -9,11 +9,11 @@ body * {
   color: #ffffff;
 }
 
-#backDrogasil {
+#b {
   position: fixed;
   z-index: -1;
-  margin: 10;
-  width: 50em;
+  width: 100em;
+  top: 0;
 }
 
 #conteiner {
@@ -95,10 +95,12 @@ ul li a:hover {
   font-weight: 400;
 }
 
-/*@media (max-width: 550px) {
-  body {
-    background: url(./assets/baixotest.svg);
-    background-size: auto 100%;
-    background-repeat: no-repeat;
+@media (max-width: 630px) {
+  #b {
+    position: fixed;
+    z-index: -1;
+    width: 53em;
+    top: 0;
+    left: -13em;
   }
 }
